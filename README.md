@@ -1,8 +1,9 @@
 # CBT-5C
 
-##CBT-5C: A Mind Record Dataset for Cognitive Reconstruction
+CBT-5C: A Mind Record Dataset for Cognitive Reconstruction
 
 The mind log is an important tool in cognitive-behavioral therapy (CBT), which plays a crucial role in identifying cognitive distortions and carrying out cognitive restructuring work. The current lack of large-scale and high-quality thinking record datasets seriously hinders the integration of CBT and artificial intelligence technologies. On the basis of the existing three column thinking record table (situational, automatic thinking, and distortion types), this article uses large model generation and manual annotation to add two columns of information, "emotion" and "alternative thinking", to construct the first five column structured thinking record dataset CBT-5C, which contains 7329 high-quality reliable samples. Use the CBT-5C dataset to fine tune large and lightweight models, and then perform tasks for generating alternative thinking. The experimental results show that after fine-tuning, the performance of these two models is significantly better than before, which verifies the effectiveness of the dataset and fills the key link in the complete technical chain of CBT.
 
-##CBT-5C：用于认知重构的思维记录数据集
+CBT-5C：用于认知重构的思维记录数据集
+
 思维记录表是认知行为疗法（CBT）重要的工具，其在识别认知扭曲以及开展认知重构工作时起着十分关键的作用。当前缺少大规模且高质量的思维记录数据集，严重阻碍了CBT和人工智能技术的融合。本文在现有的三栏思维记录表（情境、自动思维以及扭曲类型）的基础之上，借助大模型生成以及人工标注的方式，新增添了“情绪”、“替代思维”两栏信息，构建了首个五栏结构的思维记录数据集CBT-5C，数据集包含有7329条质量可靠样本。运用CBT-5C数据集针对大模型以及轻量级模型进行微调操作，然后进行替代思维生成的任务。经实验得出的结果显示，这两个模型经过微调之后效果明显优于微调之前，验证了数据集的有效性，填补了CBT完整技术链条的关键环节。
